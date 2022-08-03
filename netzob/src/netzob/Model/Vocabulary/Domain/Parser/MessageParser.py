@@ -289,6 +289,6 @@ class MessageParser(object):
 
             except InvalidParsingPathException:
                 pass
-
-        raise StopIteration()
+        return()
+        #raise StopIteration()
         # InvalidParsingPathException("No parsing path returned while parsing '{}'".format(TypeConverter.convert(value_before_parsing, BitArray, Raw)))
